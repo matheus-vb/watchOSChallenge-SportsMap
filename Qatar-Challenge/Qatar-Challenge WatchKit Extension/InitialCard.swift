@@ -41,7 +41,7 @@ struct InitialCard: View {
             
             HStack{
                 
-                Image(systemName: "house.fill")
+                Image(image)
                     .resizable()
                     .frame(width: 40, height: 40)
                 
@@ -58,7 +58,7 @@ struct InitialCard: View {
 
 struct InitialCard_Previews: PreviewProvider {
     static var previews: some View {
-        InitialCard(image: "flatBlue", title: "Esportes", height: 90, action: {})
+        InitialCard(image: "natacaoBlue", title: "Natação", height: 90, action: {})
     }
 }
 
