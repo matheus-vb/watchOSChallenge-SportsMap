@@ -17,6 +17,9 @@
 		274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EE012293138FE0042B8E3 /* ComplicationController.swift */; };
 		274EE015293138FF0042B8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE014293138FF0042B8E3 /* Assets.xcassets */; };
 		274EE018293138FF0042B8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
+		86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */; };
+		86ED173C2932C8B800371E3C /* HomeCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173B2932C8B800371E3C /* HomeCardModel.swift */; };
+		86ED173E2932CB3600371E3C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173D2932CB3600371E3C /* Store.swift */; };
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		E91B07AF293294B400055D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -77,6 +80,9 @@
 		274EE017293138FF0042B8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCarouselView.swift; sourceTree = SOURCE_ROOT; };
+		86ED173B2932C8B800371E3C /* HomeCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardModel.swift; path = "Qatar-Challenge WatchKit Extension/HomeCardModel.swift"; sourceTree = SOURCE_ROOT; };
+		86ED173D2932CB3600371E3C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store.swift; path = "Qatar-Challenge WatchKit Extension/Store.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +177,8 @@
 		274EE02B2931396A0042B8E3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				86ED173B2932C8B800371E3C /* HomeCardModel.swift */,
+				86ED173D2932CB3600371E3C /* Store.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -185,6 +193,7 @@
 		274EE02D293139A60042B8E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -319,6 +328,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
+				86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */,
+				86ED173C2932C8B800371E3C /* HomeCardModel.swift in Sources */,
+				86ED173E2932CB3600371E3C /* Store.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
@@ -461,7 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Qatar-Challenge WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = V8K8MHSNH4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Qatar-Challenge WatchKit Extension/Info.plist";
@@ -493,7 +505,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Qatar-Challenge WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = V8K8MHSNH4;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Qatar-Challenge WatchKit Extension/Info.plist";
@@ -526,7 +538,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V8K8MHSNH4;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Qatar_Challenge_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Qatar-Challenge WatchKit App";
@@ -551,7 +563,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V8K8MHSNH4;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Qatar_Challenge_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Qatar-Challenge WatchKit App";
@@ -573,7 +585,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V8K8MHSNH4;
+				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.Qatar-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -586,7 +598,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = V8K8MHSNH4;
+				DEVELOPMENT_TEAM = "";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.Qatar-Challenge";
 				PRODUCT_NAME = "$(TARGET_NAME)";

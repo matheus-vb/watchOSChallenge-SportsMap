@@ -12,7 +12,7 @@ struct Qatar_ChallengeApp: App {
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {
-                ContentView()
+                HomeScreenCarouselView()
             }
         }
 
