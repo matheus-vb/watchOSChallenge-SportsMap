@@ -17,9 +17,15 @@
 		274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EE012293138FE0042B8E3 /* ComplicationController.swift */; };
 		274EE015293138FF0042B8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE014293138FF0042B8E3 /* Assets.xcassets */; };
 		274EE018293138FF0042B8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
+
+		E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B07AA29327F1B00055D99 /* InitialCard.swift */; };
+		
+		E91B07AD293292C900055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
+
 		86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173F2932DFD000371E3C /* Color+Hex.swift */; };
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		E91B07AF293294B400055D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,7 +84,11 @@
 		274EE017293138FF0042B8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+
+		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
+
 		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
+
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +140,7 @@
 				274EE028293139550042B8E3 /* Controllers */,
 				274EE00A293138FE0042B8E3 /* Qatar_ChallengeApp.swift */,
 				274EE00C293138FE0042B8E3 /* ContentView.swift */,
+				E91B07AA29327F1B00055D99 /* InitialCard.swift */,
 				274EE010293138FE0042B8E3 /* NotificationView.swift */,
 				274EE014293138FF0042B8E3 /* Assets.xcassets */,
 				274EE019293138FF0042B8E3 /* Info.plist */,
@@ -292,8 +303,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+
 				E91B07AF293294B400055D99 /* Assets.xcassets in Resources */,
 				E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +338,7 @@
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
+				E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
 				86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */,
 			);
