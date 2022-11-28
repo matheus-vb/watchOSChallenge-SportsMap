@@ -26,7 +26,7 @@ struct SeeAllTopText: View {
             Text("\(distance) m")
                 .fontWeight(.medium)
                 .font(.custom("SF-Pro-Display", size: 10))
-                .foregroundColor(.red)
+                .foregroundColor(Color("blue100"))
         }
     }
 }

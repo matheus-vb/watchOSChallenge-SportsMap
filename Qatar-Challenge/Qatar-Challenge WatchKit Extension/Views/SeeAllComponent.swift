@@ -19,7 +19,8 @@ struct SeeAllComponent: View {
     var body: some View {
         ZStack{
             SeeAllBackground()
-            SeeAllContent(image: self.image, localName: self.localName, type: self.type, isfree: self.type, distance: self.distance)
+            
+            SeeAllContent(image: self.image, localName: self.localName, type: self.type, isfree: self.isfree, distance: self.distance)
         }
     }
 }

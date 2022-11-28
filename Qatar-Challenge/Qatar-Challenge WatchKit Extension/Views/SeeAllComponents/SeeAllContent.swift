@@ -32,7 +32,7 @@ struct SeeAllContent: View{
                 Spacer()
                     .frame(height: 4)
                 
-                SeeAllBottomText(type: self.type)
+                SeeAllBottomText(type: self.type, isFree: self.isfree)
             }
         }
     }

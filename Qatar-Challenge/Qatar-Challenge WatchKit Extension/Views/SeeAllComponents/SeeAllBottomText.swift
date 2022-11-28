@@ -11,17 +11,18 @@ import SwiftUI
 struct SeeAllBottomText: View {
     
     let type: String
+    let isFree: Bool
     
     var body: some View {
-        Text("\(type)  •  $")
+        Text(isFree == true ? "\(type)" : "\(type) • $")
             .fontWeight(.medium)
             .font(.custom("SF-Pro-Display", size: 10))
-            .foregroundColor(.red)
+            .foregroundColor(Color("white80"))
     }
 }
 
 struct SeeAllBottomText_Previews: PreviewProvider {
     static var previews: some View {
-        SeeAllBottomText(type: "Campo de Futebol")
+        SeeAllBottomText(type: "Campo de Futebol", isFree: false)
     }
 }
