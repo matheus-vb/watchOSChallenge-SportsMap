@@ -17,6 +17,11 @@
 		274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EE012293138FE0042B8E3 /* ComplicationController.swift */; };
 		274EE015293138FF0042B8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE014293138FF0042B8E3 /* Assets.xcassets */; };
 		274EE018293138FF0042B8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
+		2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D85D2934E50300805B27 /* SeeAllComponent.swift */; };
+		2777D8612934F20B00805B27 /* SeeAllBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8602934F20B00805B27 /* SeeAllBackground.swift */; };
+		2777D8632934F45A00805B27 /* SeeAllTopText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8622934F45A00805B27 /* SeeAllTopText.swift */; };
+		2777D8652934F4F500805B27 /* SeeAllBottomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8642934F4F500805B27 /* SeeAllBottomText.swift */; };
+		2777D8672934F71500805B27 /* SeeAllContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8662934F71500805B27 /* SeeAllContent.swift */; };
 		86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173F2932DFD000371E3C /* Color+Hex.swift */; };
 		E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B07AA29327F1B00055D99 /* InitialCard.swift */; };
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
@@ -80,7 +85,12 @@
 		274EE017293138FF0042B8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
+		2777D85D2934E50300805B27 /* SeeAllComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
+		2777D8602934F20B00805B27 /* SeeAllBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllBackground.swift; sourceTree = "<group>"; };
+		2777D8622934F45A00805B27 /* SeeAllTopText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllTopText.swift; sourceTree = "<group>"; };
+		2777D8642934F4F500805B27 /* SeeAllBottomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllBottomText.swift; sourceTree = "<group>"; };
+		2777D8662934F71500805B27 /* SeeAllContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllContent.swift; sourceTree = "<group>"; };
+		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
 		E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateRouteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,10 +202,23 @@
 		274EE02D293139A60042B8E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2777D85F2934F1D000805B27 /* SeeAllComponents */,
 				E91B07AA29327F1B00055D99 /* InitialCard.swift */,
+				2777D85D2934E50300805B27 /* SeeAllComponent.swift */,
 				E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2777D85F2934F1D000805B27 /* SeeAllComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2777D8602934F20B00805B27 /* SeeAllBackground.swift */,
+				2777D8622934F45A00805B27 /* SeeAllTopText.swift */,
+				2777D8642934F4F500805B27 /* SeeAllBottomText.swift */,
+				2777D8662934F71500805B27 /* SeeAllContent.swift */,
+			);
+			path = SeeAllComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,12 +350,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2777D8652934F4F500805B27 /* SeeAllBottomText.swift in Sources */,
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
+				2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
+				2777D8632934F45A00805B27 /* SeeAllTopText.swift in Sources */,
 				E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
+				2777D8672934F71500805B27 /* SeeAllContent.swift in Sources */,
 				E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */,
+				2777D8612934F20B00805B27 /* SeeAllBackground.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
 				86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */,
 			);
