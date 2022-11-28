@@ -79,7 +79,7 @@
 		274EE017293138FF0042B8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
+		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
