@@ -18,43 +18,8 @@ struct SeeAllComponent: View {
     
     var body: some View {
         ZStack{
-            
             SeeAllBackground()
-
-            HStack{
-                Image(image)
-                    .resizable()
-                    .frame(width: 34, height: 34)
-                
-                Spacer()
-                    .frame(width: 8)
-                
-                VStack(alignment: .leading){
-                    
-                    HStack{
-                        Text(localName)
-                            .fontWeight(.semibold)
-                            .font(.custom("SF-Pro-Display", size: 10))
-                            .frame(alignment: .leading)
-                        
-                        Spacer()
-                            .frame(width: 30)
-                        
-                        Text(distance)
-                            .fontWeight(.medium)
-                            .font(.custom("SF-Pro-Display", size: 10))
-                            .foregroundColor(.red)
-                    }
-                    
-                    Spacer()
-                        .frame(height: 4)
-                    
-                    Text(type)
-                        .fontWeight(.medium)
-                        .font(.custom("SF-Pro-Display", size: 10))
-                        .foregroundColor(.red)
-                }
-            }
+            SeeAllContent(image: self.image, localName: self.localName, type: self.type, isfree: self.type, distance: self.distance)
         }
     }
 }
