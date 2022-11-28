@@ -19,9 +19,6 @@ struct InitialCard: View {
         
         ZStack{
             
-            Color.blue
-                .ignoresSafeArea()
-            
             HStack {
                 
                 Spacer()
@@ -30,7 +27,7 @@ struct InitialCard: View {
                 Rectangle()
                     .frame(height: height)
                     .cornerRadius(16)
-                    .foregroundColor(.black)
+                    .foregroundColor(Color("gray100"))
                     .shadow(color: .black, radius: 20, y: 20)
                 
                 Spacer()
