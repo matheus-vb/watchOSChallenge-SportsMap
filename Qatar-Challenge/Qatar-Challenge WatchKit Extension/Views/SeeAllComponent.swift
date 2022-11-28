@@ -19,20 +19,8 @@ struct SeeAllComponent: View {
     var body: some View {
         ZStack{
             
-            HStack{
-                Spacer()
-                    .frame(width: 8)
-                
-                Rectangle()
-                    .frame(height: 50)
-                    .cornerRadius(16)
-                    .foregroundColor(Color("gray100"))
-                    .shadow(color: .black, radius: 20, y: 20)
-                
-                Spacer()
-                    .frame(width: 8)
-            }
-            
+            SeeAllBackground()
+
             HStack{
                 Image(image)
                     .resizable()
@@ -43,10 +31,20 @@ struct SeeAllComponent: View {
                 
                 VStack(alignment: .leading){
                     
-                    Text(localName)
-                        .fontWeight(.semibold)
-                        .font(.custom("SF-Pro-Display", size: 10))
-                        .frame(alignment: .leading)
+                    HStack{
+                        Text(localName)
+                            .fontWeight(.semibold)
+                            .font(.custom("SF-Pro-Display", size: 10))
+                            .frame(alignment: .leading)
+                        
+                        Spacer()
+                            .frame(width: 30)
+                        
+                        Text(distance)
+                            .fontWeight(.medium)
+                            .font(.custom("SF-Pro-Display", size: 10))
+                            .foregroundColor(.red)
+                    }
                     
                     Spacer()
                         .frame(height: 4)
