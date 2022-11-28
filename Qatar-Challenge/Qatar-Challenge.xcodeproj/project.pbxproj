@@ -27,6 +27,7 @@
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		E91B07AF293294B400055D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
 		E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */; };
+		E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
 		E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateRouteButton.swift; sourceTree = "<group>"; };
+		E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOnListButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				E91B07AA29327F1B00055D99 /* InitialCard.swift */,
 				2777D85D2934E50300805B27 /* SeeAllComponent.swift */,
 				E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */,
+				E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -362,6 +365,7 @@
 				E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */,
 				2777D8612934F20B00805B27 /* SeeAllBackground.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
+				E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */,
 				86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
