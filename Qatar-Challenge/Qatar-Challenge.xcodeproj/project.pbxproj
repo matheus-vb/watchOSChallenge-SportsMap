@@ -17,6 +17,7 @@
 		274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EE012293138FE0042B8E3 /* ComplicationController.swift */; };
 		274EE015293138FF0042B8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE014293138FF0042B8E3 /* Assets.xcassets */; };
 		274EE018293138FF0042B8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
+		2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D85D2934E50300805B27 /* SeeAllComponent.swift */; };
 		86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173F2932DFD000371E3C /* Color+Hex.swift */; };
 		E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B07AA29327F1B00055D99 /* InitialCard.swift */; };
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
@@ -79,6 +80,7 @@
 		274EE017293138FF0042B8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		2777D85D2934E50300805B27 /* SeeAllComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
 		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				E91B07AA29327F1B00055D99 /* InitialCard.swift */,
+				2777D85D2934E50300805B27 /* SeeAllComponent.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
+				2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
