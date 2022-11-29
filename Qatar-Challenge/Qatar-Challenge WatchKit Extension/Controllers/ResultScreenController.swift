@@ -12,7 +12,7 @@ struct ResultScreenController: View {
     var body: some View {
         
         ZStack{
-            
+
             Color("black100")
                 .ignoresSafeArea()
             

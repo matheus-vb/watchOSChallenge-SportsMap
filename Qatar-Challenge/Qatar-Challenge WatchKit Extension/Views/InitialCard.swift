@@ -18,7 +18,6 @@ struct InitialCard: View {
     var body: some View {
         
         ZStack{
-            
             HStack {
                 
                 Spacer()
@@ -32,30 +31,30 @@ struct InitialCard: View {
                 
                 Spacer()
                     .frame(width: 8)
-                
             }
             
-            
             HStack{
+                
+                Spacer()
+                    .frame(width: 24)
                 
                 Image(image)
                     .resizable()
                     .frame(width: 40, height: 40)
                 
                 Text(title)
-                    .fontWeight(.semibold)
+                    .font(.system(size: 16, weight: .semibold))
                     .padding(8)
+                
+                Spacer()
             }
-           
         }
-        
-        
     }
 }
 
 struct InitialCard_Previews: PreviewProvider {
     static var previews: some View {
-        InitialCard(image: "natacaoBlue", title: "Natação", height: 90, action: {})
+        InitialCard(image: "musculacaoBlue", title: "Musculação", height: 90, action: {})
     }
 }
 
