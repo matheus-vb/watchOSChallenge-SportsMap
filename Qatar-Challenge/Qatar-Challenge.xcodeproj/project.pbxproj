@@ -30,6 +30,10 @@
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		E91B07AF293294B400055D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
 		E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */; };
+		E96C801B29366C3300FEF7F0 /* ResultScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C801A29366C3300FEF7F0 /* ResultScreenController.swift */; };
+		E96C801E29366DD100FEF7F0 /* ResultTopText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C801D29366DD100FEF7F0 /* ResultTopText.swift */; };
+		E96C802029366DE000FEF7F0 /* ResultBottomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C801F29366DE000FEF7F0 /* ResultBottomText.swift */; };
+		E96C802229366E0000FEF7F0 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E96C802129366E0000FEF7F0 /* ResultView.swift */; };
 		E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +104,10 @@
 		86ED175529364D4A00371E3C /* SeeAllTopText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllTopText.swift; sourceTree = "<group>"; };
 		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
 		E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateRouteButton.swift; sourceTree = "<group>"; };
+		E96C801A29366C3300FEF7F0 /* ResultScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenController.swift; sourceTree = "<group>"; };
+		E96C801D29366DD100FEF7F0 /* ResultTopText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultTopText.swift; sourceTree = "<group>"; };
+		E96C801F29366DE000FEF7F0 /* ResultBottomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultBottomText.swift; sourceTree = "<group>"; };
+		E96C802129366E0000FEF7F0 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOnListButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -172,6 +180,7 @@
 		274EE028293139550042B8E3 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				E96C801A29366C3300FEF7F0 /* ResultScreenController.swift */,
 				274EE012293138FE0042B8E3 /* ComplicationController.swift */,
 				274EE00E293138FE0042B8E3 /* NotificationController.swift */,
 			);
@@ -216,6 +225,8 @@
 				E91B07AA29327F1B00055D99 /* InitialCard.swift */,
 				2777D85D2934E50300805B27 /* SeeAllComponent.swift */,
 				E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */,
+				E96C802129366E0000FEF7F0 /* ResultView.swift */,
+				E96C801C29366DA600FEF7F0 /* ResultComponents */,
 				86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */,
 				E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */,
 			);
@@ -231,6 +242,15 @@
 				86ED175529364D4A00371E3C /* SeeAllTopText.swift */,
 			);
 			path = SeeAllComponents;
+			sourceTree = "<group>";
+		};
+		E96C801C29366DA600FEF7F0 /* ResultComponents */ = {
+			isa = PBXGroup;
+			children = (
+				E96C801D29366DD100FEF7F0 /* ResultTopText.swift */,
+				E96C801F29366DE000FEF7F0 /* ResultBottomText.swift */,
+			);
+			path = ResultComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +382,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2777D8652934F4F500805B27 /* SeeAllBottomText.swift in Sources */,
+				E96C801B29366C3300FEF7F0 /* ResultScreenController.swift in Sources */,
 				86ED175629364D4A00371E3C /* SeeAllBottomText.swift in Sources */,
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
 				86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */,
@@ -376,9 +398,13 @@
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
 				2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
+				E96C801E29366DD100FEF7F0 /* ResultTopText.swift in Sources */,
+				E96C802229366E0000FEF7F0 /* ResultView.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
 				E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
+				E96C802029366DE000FEF7F0 /* ResultBottomText.swift in Sources */,
+				2777D8672934F71500805B27 /* SeeAllContent.swift in Sources */,
 				E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
 				E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */,
