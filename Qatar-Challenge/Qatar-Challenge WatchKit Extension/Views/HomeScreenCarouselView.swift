@@ -17,7 +17,7 @@ struct HomeScreenCarouselView: View {
     var body: some View {
         ZStack{
             ForEach(store.cards) { card in
-                InitialCard(image: "natacaoBlue", title: "Natacao", height: 90, action: {})
+                InitialCard(image: card.asset, title: card.name, height: 90, action: {})
                 .frame(width: 160)
                 
                 .scaleEffect(1.0 - abs(distance(card.id)) * 0.2)
