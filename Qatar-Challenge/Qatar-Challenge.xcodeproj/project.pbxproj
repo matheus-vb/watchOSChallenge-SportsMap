@@ -20,6 +20,14 @@
 		86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */; };
 		86ED173C2932C8B800371E3C /* HomeCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173B2932C8B800371E3C /* HomeCardModel.swift */; };
 		86ED173E2932CB3600371E3C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173D2932CB3600371E3C /* Store.swift */; };
+		86ED174E29364D3C00371E3C /* InitialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED174A29364D3C00371E3C /* InitialCard.swift */; };
+		86ED174F29364D3C00371E3C /* CalculateRouteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED174B29364D3C00371E3C /* CalculateRouteButton.swift */; };
+		86ED175029364D3C00371E3C /* SeeOnListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED174C29364D3C00371E3C /* SeeOnListButton.swift */; };
+		86ED175129364D3C00371E3C /* SeeAllComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED174D29364D3C00371E3C /* SeeAllComponent.swift */; };
+		86ED175629364D4A00371E3C /* SeeAllBottomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175229364D4A00371E3C /* SeeAllBottomText.swift */; };
+		86ED175729364D4A00371E3C /* SeeAllContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175329364D4A00371E3C /* SeeAllContent.swift */; };
+		86ED175829364D4A00371E3C /* SeeAllBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175429364D4A00371E3C /* SeeAllBackground.swift */; };
+		86ED175929364D4A00371E3C /* SeeAllTopText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175529364D4A00371E3C /* SeeAllTopText.swift */; };
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		E91B07AF293294B400055D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -80,9 +88,17 @@
 		274EE017293138FF0042B8E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenCarouselView.swift; sourceTree = SOURCE_ROOT; };
+		86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenCarouselView.swift; path = "Qatar-Challenge WatchKit Extension/Views/HomeScreenCarouselView.swift"; sourceTree = SOURCE_ROOT; };
 		86ED173B2932C8B800371E3C /* HomeCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardModel.swift; path = "Qatar-Challenge WatchKit Extension/HomeCardModel.swift"; sourceTree = SOURCE_ROOT; };
 		86ED173D2932CB3600371E3C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store.swift; path = "Qatar-Challenge WatchKit Extension/Store.swift"; sourceTree = SOURCE_ROOT; };
+		86ED174A29364D3C00371E3C /* InitialCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
+		86ED174B29364D3C00371E3C /* CalculateRouteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculateRouteButton.swift; sourceTree = "<group>"; };
+		86ED174C29364D3C00371E3C /* SeeOnListButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeOnListButton.swift; sourceTree = "<group>"; };
+		86ED174D29364D3C00371E3C /* SeeAllComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
+		86ED175229364D4A00371E3C /* SeeAllBottomText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllBottomText.swift; sourceTree = "<group>"; };
+		86ED175329364D4A00371E3C /* SeeAllContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllContent.swift; sourceTree = "<group>"; };
+		86ED175429364D4A00371E3C /* SeeAllBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllBackground.swift; sourceTree = "<group>"; };
+		86ED175529364D4A00371E3C /* SeeAllTopText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllTopText.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,8 +210,24 @@
 			isa = PBXGroup;
 			children = (
 				86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */,
+				86ED174B29364D3C00371E3C /* CalculateRouteButton.swift */,
+				86ED174A29364D3C00371E3C /* InitialCard.swift */,
+				86ED174D29364D3C00371E3C /* SeeAllComponent.swift */,
+				86ED174C29364D3C00371E3C /* SeeOnListButton.swift */,
+				86ED174129364C6700371E3C /* SeeAllComponents */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		86ED174129364C6700371E3C /* SeeAllComponents */ = {
+			isa = PBXGroup;
+			children = (
+				86ED175429364D4A00371E3C /* SeeAllBackground.swift */,
+				86ED175229364D4A00371E3C /* SeeAllBottomText.swift */,
+				86ED175329364D4A00371E3C /* SeeAllContent.swift */,
+				86ED175529364D4A00371E3C /* SeeAllTopText.swift */,
+			);
+			path = SeeAllComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,13 +359,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86ED175629364D4A00371E3C /* SeeAllBottomText.swift in Sources */,
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
+				86ED174E29364D3C00371E3C /* InitialCard.swift in Sources */,
+				86ED175029364D3C00371E3C /* SeeOnListButton.swift in Sources */,
 				86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */,
+				86ED175729364D4A00371E3C /* SeeAllContent.swift in Sources */,
 				86ED173C2932C8B800371E3C /* HomeCardModel.swift in Sources */,
+				86ED175129364D3C00371E3C /* SeeAllComponent.swift in Sources */,
 				86ED173E2932CB3600371E3C /* Store.swift in Sources */,
+				86ED175829364D4A00371E3C /* SeeAllBackground.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
+				86ED175929364D4A00371E3C /* SeeAllTopText.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
+				86ED174F29364D3C00371E3C /* CalculateRouteButton.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
