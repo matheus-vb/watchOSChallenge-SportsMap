@@ -18,6 +18,7 @@ struct MapView: View {
         Location(name: "Tower of London", coordinate: CLLocationCoordinate2D(latitude: 51.508, longitude: -0.076), sport: .futebol)
     ]
     
+    
     var body: some View {
         Map(coordinateRegion: $region, annotationItems: locations){location in
             MapAnnotation(coordinate: location.coordinate){
