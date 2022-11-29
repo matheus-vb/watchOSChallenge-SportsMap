@@ -16,14 +16,14 @@ struct ResultScreenController: View {
             Color("black100")
                 .ignoresSafeArea()
             
-            VStack{
+            VStack(){
                 
-                
+                ResultView(exerciseType: "Futebol", distance: "400", placeName: "Arena F12", placeAdress: "R. Francisco Leopoldo, 743", isItOpen: true, action: {})
                 
             }
             
         }
-        
+
         
     }
 }

@@ -16,30 +16,40 @@ struct ResultBottomText: View {
     
     var body: some View {
         
-        VStack(alignment: .leading, spacing: 8){
+        HStack{
             
-            Text(placeName)
-                .font(.system(size: 18, weight: .semibold))
-                .frame(alignment: .leading)
+            Spacer()
+                .frame(width: 8)
             
-            Text(placeAddress)
-                .font(.system(size: 14, weight: .regular))
-                .foregroundColor(Color("white80"))
-                .frame(alignment: .leading)
-        
-            
-            HStack(alignment: .lastTextBaseline, spacing: 8){
-              
-                Circle()
-                    .fill(isItOpen ? .green : Color("red100"))
-                    .frame(width: 10, height: 10, alignment: .bottom)
+            VStack(alignment: .leading, spacing: 8){
                 
-                Text(isItOpen ? "Aberto agora" : "Fechado")
-                    .font(.system(size: 14, weight: .regular))
-                    .foregroundColor(Color("white80"))
+                Text(placeName)
+                    .font(.system(size: 18, weight: .semibold))
                     .frame(alignment: .leading)
                 
+                Text(placeAddress)
+                    .font(.system(size: 12, weight: .regular))
+                    .foregroundColor(Color("white80"))
+                    .frame(alignment: .leading)
+            
+                
+                HStack(alignment: .lastTextBaseline, spacing: 8){
+                  
+                    Circle()
+                        .fill(isItOpen ? .green : Color("red100"))
+                        .frame(width: 8, height: 8, alignment: .bottom)
+                    
+                    Text(isItOpen ? "Aberto agora" : "Fechado")
+                        .font(.system(size: 12, weight: .regular))
+                        .foregroundColor(Color("white80"))
+                        .frame(alignment: .leading)
+                    
+                }
             }
+            
+            Spacer()
+                .frame(width: 8)
+            
         }
     }
 }
