@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		274B36B329368C4E0089FFCC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B36B229368C4E0089FFCC /* MapView.swift */; };
+		274B36B5293690CD0089FFCC /* PinSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B36B4293690CD0089FFCC /* PinSports.swift */; };
+		274B36B7293692D60089FFCC /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B36B6293692D60089FFCC /* LocationModel.swift */; };
 		274EDFFB293138FD0042B8E3 /* Qatar-Challenge WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 274EDFFA293138FD0042B8E3 /* Qatar-Challenge WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		274EE000293138FE0042B8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
 		274EE006293138FE0042B8E3 /* Qatar-Challenge WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 274EE005293138FE0042B8E3 /* Qatar-Challenge WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -78,6 +80,8 @@
 
 /* Begin PBXFileReference section */
 		274B36B229368C4E0089FFCC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		274B36B4293690CD0089FFCC /* PinSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PinSports.swift; path = "Qatar-Challenge WatchKit Extension/Views/PinSports.swift"; sourceTree = SOURCE_ROOT; };
+		274B36B6293692D60089FFCC /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationModel.swift; path = "Qatar-Challenge WatchKit Extension/Views/LocationModel.swift"; sourceTree = SOURCE_ROOT; };
 		274EDFF6293138FD0042B8E3 /* Qatar-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qatar-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		274EDFFA293138FD0042B8E3 /* Qatar-Challenge WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qatar-Challenge WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		274EDFFF293138FE0042B8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -183,6 +187,7 @@
 		274EE0292931395E0042B8E3 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				274B36B4293690CD0089FFCC /* PinSports.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 			children = (
 				86ED173B2932C8B800371E3C /* HomeCardModel.swift */,
 				86ED173D2932CB3600371E3C /* Store.swift */,
+				274B36B6293692D60089FFCC /* LocationModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -380,6 +386,8 @@
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
 				2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
+				274B36B5293690CD0089FFCC /* PinSports.swift in Sources */,
+				274B36B7293692D60089FFCC /* LocationModel.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
 				E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
