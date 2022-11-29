@@ -28,8 +28,17 @@
 		86ED175729364D4A00371E3C /* SeeAllContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175329364D4A00371E3C /* SeeAllContent.swift */; };
 		86ED175829364D4A00371E3C /* SeeAllBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175429364D4A00371E3C /* SeeAllBackground.swift */; };
 		86ED175929364D4A00371E3C /* SeeAllTopText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175529364D4A00371E3C /* SeeAllTopText.swift */; };
+		2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D85D2934E50300805B27 /* SeeAllComponent.swift */; };
+		2777D8612934F20B00805B27 /* SeeAllBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8602934F20B00805B27 /* SeeAllBackground.swift */; };
+		2777D8632934F45A00805B27 /* SeeAllTopText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8622934F45A00805B27 /* SeeAllTopText.swift */; };
+		2777D8652934F4F500805B27 /* SeeAllBottomText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8642934F4F500805B27 /* SeeAllBottomText.swift */; };
+		2777D8672934F71500805B27 /* SeeAllContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D8662934F71500805B27 /* SeeAllContent.swift */; };
+		86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173F2932DFD000371E3C /* Color+Hex.swift */; };
+		E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B07AA29327F1B00055D99 /* InitialCard.swift */; };
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		E91B07AF293294B400055D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
+		E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */; };
+		E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +108,15 @@
 		86ED175329364D4A00371E3C /* SeeAllContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllContent.swift; sourceTree = "<group>"; };
 		86ED175429364D4A00371E3C /* SeeAllBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllBackground.swift; sourceTree = "<group>"; };
 		86ED175529364D4A00371E3C /* SeeAllTopText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllTopText.swift; sourceTree = "<group>"; };
+		2777D85D2934E50300805B27 /* SeeAllComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
+		2777D8602934F20B00805B27 /* SeeAllBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllBackground.swift; sourceTree = "<group>"; };
+		2777D8622934F45A00805B27 /* SeeAllTopText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllTopText.swift; sourceTree = "<group>"; };
+		2777D8642934F4F500805B27 /* SeeAllBottomText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllBottomText.swift; sourceTree = "<group>"; };
+		2777D8662934F71500805B27 /* SeeAllContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllContent.swift; sourceTree = "<group>"; };
+		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
+		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
+		E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateRouteButton.swift; sourceTree = "<group>"; };
+		E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOnListButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -186,6 +204,7 @@
 		274EE02A293139640042B8E3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				86ED173F2932DFD000371E3C /* Color+Hex.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -215,6 +234,11 @@
 				86ED174D29364D3C00371E3C /* SeeAllComponent.swift */,
 				86ED174C29364D3C00371E3C /* SeeOnListButton.swift */,
 				86ED174129364C6700371E3C /* SeeAllComponents */,
+				2777D85F2934F1D000805B27 /* SeeAllComponents */,
+				E91B07AA29327F1B00055D99 /* InitialCard.swift */,
+				2777D85D2934E50300805B27 /* SeeAllComponent.swift */,
+				E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */,
+				E9E3EBAD293550500039D8C8 /* SeeOnListButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -226,6 +250,17 @@
 				86ED175229364D4A00371E3C /* SeeAllBottomText.swift */,
 				86ED175329364D4A00371E3C /* SeeAllContent.swift */,
 				86ED175529364D4A00371E3C /* SeeAllTopText.swift */,
+			);
+			path = SeeAllComponents;
+			sourceTree = "<group>";
+		};
+		2777D85F2934F1D000805B27 /* SeeAllComponents */ = {
+			isa = PBXGroup;
+			children = (
+				2777D8602934F20B00805B27 /* SeeAllBackground.swift */,
+				2777D8622934F45A00805B27 /* SeeAllTopText.swift */,
+				2777D8642934F4F500805B27 /* SeeAllBottomText.swift */,
+				2777D8662934F71500805B27 /* SeeAllContent.swift */,
 			);
 			path = SeeAllComponents;
 			sourceTree = "<group>";
@@ -374,7 +409,20 @@
 				86ED175929364D4A00371E3C /* SeeAllTopText.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
 				86ED174F29364D3C00371E3C /* CalculateRouteButton.swift in Sources */,
+				2777D8652934F4F500805B27 /* SeeAllBottomText.swift in Sources */,
+				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
+				2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */,
+				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
+				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
+				2777D8632934F45A00805B27 /* SeeAllTopText.swift in Sources */,
+				E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */,
+				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
+				2777D8672934F71500805B27 /* SeeAllContent.swift in Sources */,
+				E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */,
+				2777D8612934F20B00805B27 /* SeeAllBackground.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
+				E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */,
+				86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
