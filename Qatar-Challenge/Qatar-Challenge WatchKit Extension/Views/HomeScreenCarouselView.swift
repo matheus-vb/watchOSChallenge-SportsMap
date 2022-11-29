@@ -17,17 +17,8 @@ struct HomeScreenCarouselView: View {
     var body: some View {
         ZStack{
             ForEach(store.cards) { card in
-                ZStack {
-                    RoundedRectangle(cornerRadius: 18)
-                        .fill(.gray)
-                    HStack{
-                        Image(card.asset)
-                        Text(card.name)
-                            .foregroundColor(.black)
-                            .padding()
-                    }
-                }
-                .frame(width: 160, height: 90)
+                InitialCard(image: "natacaoBlue", title: "Natacao", height: 90, action: {})
+                .frame(width: 160)
                 
                 .scaleEffect(1.0 - abs(distance(card.id)) * 0.2)
                 .opacity(1.0 - abs(distance(card.id)) * 0.3)
