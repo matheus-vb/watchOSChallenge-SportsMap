@@ -22,11 +22,22 @@ struct ResultView: View {
         
         VStack(spacing: 8){
             
-            VStack(alignment: .center) {
+            VStack(alignment: .center, spacing: 0) {
                 ResultTopText(exerciseType: self.exerciseType, distance: self.distance)
             }
             
-            ResultBottomText(placeName: self.placeName, placeAddress: self.placeAdress, isItOpen: self.isItOpen)
+            HStack(spacing: 0){
+                
+                Spacer()
+                    .frame(width: 8)
+                
+                ResultBottomText(placeName: self.placeName, placeAddress: self.placeAdress, isItOpen: self.isItOpen)
+                
+                Spacer()
+
+            }
+            
+            
                 
             
             CalculateRouteButton(action: self.action)

@@ -16,10 +16,6 @@ struct ResultBottomText: View {
     
     var body: some View {
         
-        HStack{
-            
-            Spacer()
-                .frame(width: 8)
             
             VStack(alignment: .leading, spacing: 8){
                 
@@ -47,10 +43,6 @@ struct ResultBottomText: View {
                 }
             }
             
-            Spacer()
-                .frame(width: 8)
-            
-        }
     }
 }
 
