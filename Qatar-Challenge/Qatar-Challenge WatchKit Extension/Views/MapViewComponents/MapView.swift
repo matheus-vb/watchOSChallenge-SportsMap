@@ -2,7 +2,7 @@
 //  MapView.swift
 //  Qatar-Challenge WatchKit Extension
 //
-//  Created by jpcm2 on 29/11/22.
+//  Created by jpcm2 on 30/11/22.
 //
 
 import Foundation
@@ -12,7 +12,6 @@ import MapKit
 struct MapView: View {
     
     let locations: [Location]
-    
     @State private var region =  MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 51.5, longitude: -0.12), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
         
     var body: some View {
@@ -34,3 +33,4 @@ struct MapView_Previews: PreviewProvider {
         ])
     }
 }
+
