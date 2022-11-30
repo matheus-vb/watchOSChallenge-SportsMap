@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, World!")
-            .padding()
+        MapScreen(locations: [
+            Location(name: "Dragon Gate Chinatown", coordinate: CLLocationCoordinate2D(latitude: 37.790989302572896, longitude: -122.40555239995598), sport: .basquete),
+            Location(name: "Tower of London", coordinate: CLLocationCoordinate2D(latitude: 51.508, longitude: -0.076), sport: .futebol)
+        ])
     }
 }
 

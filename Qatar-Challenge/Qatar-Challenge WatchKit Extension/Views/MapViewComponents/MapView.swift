@@ -10,16 +10,30 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
+    @StateObject private var locationManager = LocationManager()
+    
+    var region: Binding<MKCoordinateRegion>? {
+        guard let location = locationManager.location else {
+            return MKCoordinateRegion.goldenGateRegion().getBinding()
+        }
+        
+        let region = MKCoordinateRegion(center: location.coordinate, latitudinalMeters: 500, longitudinalMeters: 500)
+        
+        return region.getBinding()
+    }
     
     let locations: [Location]
-    @State private var region =  MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 51.5, longitude: -0.12), span: MKCoordinateSpan(latitudeDelta: 0.2, longitudeDelta: 0.2))
-        
+    
     var body: some View {
-        Map(coordinateRegion: $region, annotationItems: locations){location in
-            MapAnnotation(coordinate: location.coordinate){
-                Image(location.sport.rawValue)
-                    .resizable()
+        if let region = region {
+            Map(coordinateRegion: region, interactionModes: .all, showsUserLocation: true, userTrackingMode: .constant(.follow), annotationItems: locations){location in
+                MapAnnotation(coordinate: location.coordinate){
+                    Image(location.sport.rawValue)
+                        .resizable()
+                }
             }
+            .ignoresSafeArea()
+            
         }
     }
 }
@@ -33,4 +47,3 @@ struct MapView_Previews: PreviewProvider {
         ])
     }
 }
-
