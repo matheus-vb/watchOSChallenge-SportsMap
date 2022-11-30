@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		270DF71F2937C6C300B23EE9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270DF71E2937C6C300B23EE9 /* MapView.swift */; };
 		270DF7212937C9C900B23EE9 /* ListButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270DF7202937C9C900B23EE9 /* ListButton.swift */; };
+		27372F852937D895003EAEB5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27372F842937D895003EAEB5 /* LocationManager.swift */; };
+		27372F872937D8CD003EAEB5 /* LocationManager+CLLocationManagerDelegate .swift in Sources */ = {isa = PBXBuildFile; fileRef = 27372F862937D8CD003EAEB5 /* LocationManager+CLLocationManagerDelegate .swift */; };
+		27372F892937D8EA003EAEB5 /* MKCoordinateRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27372F882937D8EA003EAEB5 /* MKCoordinateRegion.swift */; };
 		274B36B329368C4E0089FFCC /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B36B229368C4E0089FFCC /* MapScreen.swift */; };
 		274B36B5293690CD0089FFCC /* PinSports.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B36B4293690CD0089FFCC /* PinSports.swift */; };
 		274B36B7293692D60089FFCC /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274B36B6293692D60089FFCC /* LocationModel.swift */; };
@@ -87,9 +90,12 @@
 /* Begin PBXFileReference section */
 		270DF71E2937C6C300B23EE9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		270DF7202937C9C900B23EE9 /* ListButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListButton.swift; sourceTree = "<group>"; };
+		27372F842937D895003EAEB5 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		27372F862937D8CD003EAEB5 /* LocationManager+CLLocationManagerDelegate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocationManager+CLLocationManagerDelegate .swift"; sourceTree = "<group>"; };
+		27372F882937D8EA003EAEB5 /* MKCoordinateRegion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MKCoordinateRegion.swift; sourceTree = "<group>"; };
 		274B36B229368C4E0089FFCC /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
-		274B36B4293690CD0089FFCC /* PinSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PinSports.swift; path = "Qatar-Challenge WatchKit Extension/Views/PinSports.swift"; sourceTree = SOURCE_ROOT; };
-		274B36B6293692D60089FFCC /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationModel.swift; path = "Qatar-Challenge WatchKit Extension/Views/LocationModel.swift"; sourceTree = SOURCE_ROOT; };
+		274B36B4293690CD0089FFCC /* PinSports.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PinSports.swift; path = "Qatar-Challenge WatchKit Extension/Enums/PinSports.swift"; sourceTree = SOURCE_ROOT; };
+		274B36B6293692D60089FFCC /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationModel.swift; path = "Qatar-Challenge WatchKit Extension/Models/LocationModel.swift"; sourceTree = SOURCE_ROOT; };
 		274EDFF6293138FD0042B8E3 /* Qatar-Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qatar-Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		274EDFFA293138FD0042B8E3 /* Qatar-Challenge WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Qatar-Challenge WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		274EDFFF293138FE0042B8E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,8 +111,8 @@
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		2777D85D2934E50300805B27 /* SeeAllComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
 		86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenCarouselView.swift; path = "Qatar-Challenge WatchKit Extension/Views/HomeScreenCarouselView.swift"; sourceTree = SOURCE_ROOT; };
-		86ED173B2932C8B800371E3C /* HomeCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardModel.swift; path = "Qatar-Challenge WatchKit Extension/HomeCardModel.swift"; sourceTree = SOURCE_ROOT; };
-		86ED173D2932CB3600371E3C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store.swift; path = "Qatar-Challenge WatchKit Extension/Store.swift"; sourceTree = SOURCE_ROOT; };
+		86ED173B2932C8B800371E3C /* HomeCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardModel.swift; path = "Qatar-Challenge WatchKit Extension/Models/HomeCardModel.swift"; sourceTree = SOURCE_ROOT; };
+		86ED173D2932CB3600371E3C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store.swift; path = "Qatar-Challenge WatchKit Extension/Models/Store.swift"; sourceTree = SOURCE_ROOT; };
 		86ED173F2932DFD000371E3C /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Color+Hex.swift"; path = "Qatar-Challenge WatchKit Extension/Extensions/Color+Hex.swift"; sourceTree = SOURCE_ROOT; };
 		86ED175229364D4A00371E3C /* SeeAllBottomText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllBottomText.swift; sourceTree = "<group>"; };
 		86ED175329364D4A00371E3C /* SeeAllContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllContent.swift; sourceTree = "<group>"; };
@@ -141,6 +147,14 @@
 			path = MapViewComponents;
 			sourceTree = "<group>";
 		};
+		27372F832937D884003EAEB5 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				27372F842937D895003EAEB5 /* LocationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 		274EDFEF293138FD0042B8E3 = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +185,7 @@
 		274EE009293138FE0042B8E3 /* Qatar-Challenge WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				27372F832937D884003EAEB5 /* Managers */,
 				274EE02D293139A60042B8E3 /* Views */,
 				274EE02C293139710042B8E3 /* Protocols */,
 				274EE02B2931396A0042B8E3 /* Models */,
@@ -218,6 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				86ED173F2932DFD000371E3C /* Color+Hex.swift */,
+				27372F862937D8CD003EAEB5 /* LocationManager+CLLocationManagerDelegate .swift */,
+				27372F882937D8EA003EAEB5 /* MKCoordinateRegion.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -405,7 +422,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2777D8652934F4F500805B27 /* SeeAllBottomText.swift in Sources */,
 				E96C801B29366C3300FEF7F0 /* ResultScreenController.swift in Sources */,
 				86ED175629364D4A00371E3C /* SeeAllBottomText.swift in Sources */,
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
@@ -413,6 +429,8 @@
 				270DF7212937C9C900B23EE9 /* ListButton.swift in Sources */,
 				274B36B329368C4E0089FFCC /* MapScreen.swift in Sources */,
 				86ED175729364D4A00371E3C /* SeeAllContent.swift in Sources */,
+				27372F852937D895003EAEB5 /* LocationManager.swift in Sources */,
+				27372F872937D8CD003EAEB5 /* LocationManager+CLLocationManagerDelegate .swift in Sources */,
 				86ED173C2932C8B800371E3C /* HomeCardModel.swift in Sources */,
 				86ED173E2932CB3600371E3C /* Store.swift in Sources */,
 				86ED175829364D4A00371E3C /* SeeAllBackground.swift in Sources */,
@@ -432,11 +450,11 @@
 				E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
 				E96C802029366DE000FEF7F0 /* ResultBottomText.swift in Sources */,
-				2777D8672934F71500805B27 /* SeeAllContent.swift in Sources */,
 				E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
 				E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */,
 				86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */,
+				27372F892937D8EA003EAEB5 /* MKCoordinateRegion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,8 +598,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Qatar-Challenge WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Qatar-Challenge WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Qatar_Challenge_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aceite para acessar os locais próximos a você";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -612,8 +631,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Qatar-Challenge WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Qatar-Challenge WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = Qatar_Challenge_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aceite para acessar os locais próximos a você";
 				INFOPLIST_KEY_WKWatchOnly = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -644,6 +664,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Qatar_Challenge_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Qatar-Challenge WatchKit App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aceite para acessar os locais próximos a você";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.Qatar-Challenge.watchkitapp";
@@ -669,6 +690,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = Qatar_Challenge_WatchKit_Extension;
 				INFOPLIST_KEY_CFBundleDisplayName = "Qatar-Challenge WatchKit App";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Aceite para acessar os locais próximos a você";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "br.ufpe.cin.academy.Qatar-Challenge.watchkitapp";
