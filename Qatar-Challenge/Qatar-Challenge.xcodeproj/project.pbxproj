@@ -26,6 +26,7 @@
 		274EE015293138FF0042B8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE014293138FF0042B8E3 /* Assets.xcassets */; };
 		274EE018293138FF0042B8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D85D2934E50300805B27 /* SeeAllComponent.swift */; };
+		82FBBBE52937F614001D316A /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBBBE42937F614001D316A /* LocationStore.swift */; };
 		86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */; };
 		86ED173C2932C8B800371E3C /* HomeCardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173B2932C8B800371E3C /* HomeCardModel.swift */; };
 		86ED173E2932CB3600371E3C /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED173D2932CB3600371E3C /* Store.swift */; };
@@ -110,6 +111,7 @@
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		2777D85D2934E50300805B27 /* SeeAllComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
+		82FBBBE42937F614001D316A /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenCarouselView.swift; path = "Qatar-Challenge WatchKit Extension/Views/HomeScreenCarouselView.swift"; sourceTree = SOURCE_ROOT; };
 		86ED173B2932C8B800371E3C /* HomeCardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeCardModel.swift; path = "Qatar-Challenge WatchKit Extension/Models/HomeCardModel.swift"; sourceTree = SOURCE_ROOT; };
 		86ED173D2932CB3600371E3C /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store.swift; path = "Qatar-Challenge WatchKit Extension/Models/Store.swift"; sourceTree = SOURCE_ROOT; };
@@ -245,6 +247,7 @@
 				86ED173B2932C8B800371E3C /* HomeCardModel.swift */,
 				86ED173D2932CB3600371E3C /* Store.swift */,
 				274B36B6293692D60089FFCC /* LocationModel.swift */,
+				82FBBBE42937F614001D316A /* LocationStore.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 				86ED175629364D4A00371E3C /* SeeAllBottomText.swift in Sources */,
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
 				86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */,
+				82FBBBE52937F614001D316A /* LocationStore.swift in Sources */,
 				270DF7212937C9C900B23EE9 /* ListButton.swift in Sources */,
 				274B36B329368C4E0089FFCC /* MapScreen.swift in Sources */,
 				86ED175729364D4A00371E3C /* SeeAllContent.swift in Sources */,

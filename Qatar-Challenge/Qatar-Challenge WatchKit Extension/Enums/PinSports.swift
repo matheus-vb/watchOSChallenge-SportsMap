@@ -17,4 +17,5 @@ enum PinSports: String{
     case bicicleta = "bicicletaRed"
     case tenis = "tenisRed"
     case futebol = "futebolRed"
+    case skate = "skateRed"
 }

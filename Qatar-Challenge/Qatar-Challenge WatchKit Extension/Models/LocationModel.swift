@@ -12,6 +12,11 @@ import SwiftUI
 struct Location: Identifiable {
     let id = UUID()
     let name: String
-    let coordinate: CLLocationCoordinate2D
+    let coordinate: CLLocationCoordinate2D?
     let sport: PinSports
+    let category: String
+    let free: Bool
+    let address: String
+    let time: String?
+    let distance: Double?
 }
