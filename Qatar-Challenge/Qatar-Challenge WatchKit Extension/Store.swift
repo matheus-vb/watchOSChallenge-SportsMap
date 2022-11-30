@@ -14,9 +14,26 @@ class Store: ObservableObject {
     init() {
         cards = []
         
-        for i in 0...7 {
-            let new = HomeCardModel(id: i, name: "Numero \(i)", asset: "basqueteBlue")
-            cards.append(new)
-        }
+        cards.append(HomeCardModel(id: 0, name: "Futebol", asset: "futebolBlue"))
+        cards.append(HomeCardModel(id: 1, name: "Caminhada", asset: "corridaBlue"))
+        cards.append(HomeCardModel(id: 2, name: "Tênis", asset: "tenisBlue"))
+        cards.append(HomeCardModel(id: 3, name: "Basquete", asset: "basqueteBlue"))
+        cards.append(HomeCardModel(id: 4, name: "Skate", asset: "skateBlue"))
+        cards.append(HomeCardModel(id: 5, name: "Ciclismo", asset: "bicicletaBlue"))
+        cards.append(HomeCardModel(id: 6, name: "Musculação", asset: "musculacaoBlue"))
+        cards.append(HomeCardModel(id: 7, name: "Vôlei", asset: "voleiBlue"))
+        cards.append(HomeCardModel(id: 8, name: "Natação", asset: "natacaoBlue"))
     }
 }
+
+/*
+ Futebol
+ Caminhada
+ Tenis
+ Basquete
+ Skate
+ Ciclismo
+ Musculacao
+ Volei
+ Natacao
+ */
