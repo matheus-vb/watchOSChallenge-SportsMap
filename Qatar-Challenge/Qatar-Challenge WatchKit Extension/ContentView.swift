@@ -10,8 +10,15 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         MapScreen(locations: [
-            Location(name: "Dragon Gate Chinatown", coordinate: CLLocationCoordinate2D(latitude: 37.790989302572896, longitude: -122.40555239995598), sport: .basquete),
-            Location(name: "Tower of London", coordinate: CLLocationCoordinate2D(latitude: 51.508, longitude: -0.076), sport: .futebol)
+            Location(name: "Arena Recife",
+                                             coordinate: CLLocationCoordinate2D(latitude: -8.042511416608455, longitude: -34.92634404282216),
+                                             sport: PinSports.futebol,
+                                             category: "Campo de Futebol",
+                                             free: false,
+                                             address: "R. Álvares Píres, 16 - Cordeiro",
+                                             time: "07-23",
+                                             asset: "futebolBlue",
+                                             distance: nil)
         ])
     }
 }

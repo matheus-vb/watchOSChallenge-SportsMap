@@ -18,5 +18,6 @@ struct Location: Identifiable {
     let free: Bool
     let address: String
     let time: String?
+    let asset: String
     let distance: Double?
 }

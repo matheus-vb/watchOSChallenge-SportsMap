@@ -27,7 +27,7 @@ struct MapView: View {
     var body: some View {
         if let region = region {
             Map(coordinateRegion: region, interactionModes: .all, showsUserLocation: true, userTrackingMode: .constant(.follow), annotationItems: locations){location in
-                MapAnnotation(coordinate: location.coordinate){
+                MapAnnotation(coordinate: location.coordinate ?? CLLocationCoordinate2D()){
                     Image(location.sport.rawValue)
                         .resizable()
                 }
@@ -42,8 +42,15 @@ struct MapView: View {
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
         MapView(locations: [
-            Location(name: "Buckingham Palace", coordinate: CLLocationCoordinate2D(latitude: 51.501, longitude: -0.141), sport: .basquete),
-            Location(name: "Tower of London", coordinate: CLLocationCoordinate2D(latitude: 51.508, longitude: -0.076), sport: .futebol)
+            Location(name: "Arena Recife",
+                                             coordinate: CLLocationCoordinate2D(latitude: -8.042511416608455, longitude: -34.92634404282216),
+                                             sport: PinSports.futebol,
+                                             category: "Campo de Futebol",
+                                             free: false,
+                                             address: "R. Álvares Píres, 16 - Cordeiro",
+                                             time: "07-23",
+                                             asset: "futebolBlue",
+                                             distance: nil)
         ])
     }
 }
