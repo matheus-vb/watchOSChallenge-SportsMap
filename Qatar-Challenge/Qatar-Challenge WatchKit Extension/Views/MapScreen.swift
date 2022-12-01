@@ -25,8 +25,15 @@ struct MapScreen: View {
 struct MapScreen_Previews: PreviewProvider {
     static var previews: some View {
         MapScreen(locations: [
-            Location(name: "Buckingham Palace", coordinate: CLLocationCoordinate2D(latitude: 51.501, longitude: -0.141), sport: .basquete),
-            Location(name: "Tower of London", coordinate: CLLocationCoordinate2D(latitude: 51.508, longitude: -0.076), sport: .futebol)
+            Location(name: "Arena Recife",
+                                             coordinate: CLLocationCoordinate2D(latitude: -8.042511416608455, longitude: -34.92634404282216),
+                                             sport: PinSports.futebol,
+                                             category: "Campo de Futebol",
+                                             free: false,
+                                             address: "R. Álvares Píres, 16 - Cordeiro",
+                                             time: "07-23",
+                                             asset: "futebolBlue",
+                                             distance: nil)
         ])
     }
 }
