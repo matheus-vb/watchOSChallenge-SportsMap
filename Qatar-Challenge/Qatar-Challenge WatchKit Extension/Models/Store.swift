@@ -15,7 +15,7 @@ class Store: ObservableObject {
         cards = []
         
         cards.append(HomeCardModel(id: 0, name: "Futebol", asset: "futebolBlue"))
-        cards.append(HomeCardModel(id: 1, name: "Caminhada", asset: "corridaBlue"))
+        cards.append(HomeCardModel(id: 1, name: "Corrida", asset: "corridaBlue"))
         cards.append(HomeCardModel(id: 2, name: "Tênis", asset: "tenisBlue"))
         cards.append(HomeCardModel(id: 3, name: "Basquete", asset: "basqueteBlue"))
         cards.append(HomeCardModel(id: 4, name: "Skate", asset: "skateBlue"))
