@@ -23,6 +23,5 @@ struct SeeAllBottomText: View {
 
 struct SeeAllBottomText_Previews: PreviewProvider {
     static var previews: some View {
-        SeeAllBottomText(type: "Campo de Futebol", isFree: false)
-    }
+        SeeAllComponent(image: "futebolBlue", localName: "Arena F12", type: "Campo de Futebol", isfree: false, distance: "500")    }
 }

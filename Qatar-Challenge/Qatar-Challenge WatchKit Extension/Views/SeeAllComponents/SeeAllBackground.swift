@@ -12,7 +12,7 @@ struct SeeAllBackground: View {
     var body: some View {
         HStack{
             Spacer()
-                .frame(width: 4)
+                .frame(width: 0)
             
             Rectangle()
                 .frame(height: 50)
@@ -21,7 +21,7 @@ struct SeeAllBackground: View {
                 .shadow(color: .black, radius: 20, y: 20)
             
             Spacer()
-                .frame(width: 4)
+                .frame(width: 0)
         }
         .edgesIgnoringSafeArea(.all)
     }
