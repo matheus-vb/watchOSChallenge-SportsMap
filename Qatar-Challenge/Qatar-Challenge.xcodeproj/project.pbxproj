@@ -43,6 +43,8 @@
 		86ED175829364D4A00371E3C /* SeeAllBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175429364D4A00371E3C /* SeeAllBackground.swift */; };
 		86ED175929364D4A00371E3C /* SeeAllTopText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED175529364D4A00371E3C /* SeeAllTopText.swift */; };
 		86F708C0293A5EA900B624C4 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F708BF293A5EA900B624C4 /* HomeScreen.swift */; };
+		86F708C2293D23D900B624C4 /* TimeCheckProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F708C1293D23D900B624C4 /* TimeCheckProtocol.swift */; };
+		86F708C4293D247200B624C4 /* TimeCheckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F708C3293D247200B624C4 /* TimeCheckController.swift */; };
 		E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91B07AA29327F1B00055D99 /* InitialCard.swift */; };
 		E91B07AE2932949F00055D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		E91B07AF293294B400055D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EDFFF293138FE0042B8E3 /* Assets.xcassets */; };
@@ -136,6 +138,8 @@
 		86ED175429364D4A00371E3C /* SeeAllBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllBackground.swift; sourceTree = "<group>"; };
 		86ED175529364D4A00371E3C /* SeeAllTopText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SeeAllTopText.swift; sourceTree = "<group>"; };
 		86F708BF293A5EA900B624C4 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		86F708C1293D23D900B624C4 /* TimeCheckProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCheckProtocol.swift; sourceTree = "<group>"; };
+		86F708C3293D247200B624C4 /* TimeCheckController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCheckController.swift; sourceTree = "<group>"; };
 		E91B07AA29327F1B00055D99 /* InitialCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialCard.swift; sourceTree = "<group>"; };
 		E936156D2934F1C9000ECB22 /* CalculateRouteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateRouteButton.swift; sourceTree = "<group>"; };
 		E96C801A29366C3300FEF7F0 /* ResultScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreenController.swift; sourceTree = "<group>"; };
@@ -236,6 +240,7 @@
 				274EE012293138FE0042B8E3 /* ComplicationController.swift */,
 				274EE00E293138FE0042B8E3 /* NotificationController.swift */,
 				2719DEC4293A64D60002F9F5 /* MapViewController.swift */,
+				86F708C3293D247200B624C4 /* TimeCheckController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -275,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				2719DEC6293A65150002F9F5 /* MapViewControllerProtocol.swift */,
+				86F708C1293D23D900B624C4 /* TimeCheckProtocol.swift */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
@@ -481,6 +487,7 @@
 				2790824E293D163400D96D2B /* SeeOnMapView.swift in Sources */,
 				2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
+				86F708C2293D23D900B624C4 /* TimeCheckProtocol.swift in Sources */,
 				274B36B5293690CD0089FFCC /* PinSports.swift in Sources */,
 				27908250293D168A00D96D2B /* SeeOnMapBG.swift in Sources */,
 				274B36B7293692D60089FFCC /* LocationModel.swift in Sources */,
@@ -499,6 +506,7 @@
 				E9E3EBAE293550500039D8C8 /* SeeOnListButton.swift in Sources */,
 				86ED17402932DFD000371E3C /* Color+Hex.swift in Sources */,
 				27372F892937D8EA003EAEB5 /* MKCoordinateRegion.swift in Sources */,
+				86F708C4293D247200B624C4 /* TimeCheckController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

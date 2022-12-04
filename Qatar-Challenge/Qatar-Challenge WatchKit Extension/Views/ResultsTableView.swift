@@ -27,7 +27,7 @@ struct ResultsTableView: View {
                     ForEach(models.modelDict[sportType]!) { loc in
                         let coord = loc.coordinate
                         NavigationLink {
-                            ResultView(exerciseType: sportType, distance: "500m", placeName: loc.name, placeAdress: loc.address, isItOpen: true, action: {})
+                            ResultView(exerciseType: sportType, distance: "500m", placeName: loc.name, placeAdress: loc.address, isItOpen: true, workingTime: loc.time, action: {})
                         } label: {
                             SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "\(DistanceBetweenTwoPoints.calculate(to: coord ?? CLLocationCoordinate2D()).rounded())")
                         }
