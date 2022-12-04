@@ -30,6 +30,8 @@
 		2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D85D2934E50300805B27 /* SeeAllComponent.swift */; };
 		2790824E293D163400D96D2B /* SeeOnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2790824D293D163400D96D2B /* SeeOnMapView.swift */; };
 		27908250293D168A00D96D2B /* SeeOnMapBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2790824F293D168A00D96D2B /* SeeOnMapBG.swift */; };
+		27908258293D274B00D96D2B /* CLLocationCoordinate2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27908257293D274B00D96D2B /* CLLocationCoordinate2D.swift */; };
+		2790825A293D277100D96D2B /* DistanceBetweenTwoPoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27908259293D277100D96D2B /* DistanceBetweenTwoPoints.swift */; };
 		82FBBBE52937F614001D316A /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBBBE42937F614001D316A /* LocationStore.swift */; };
 		82FBBC01293943A9001D316A /* ResultsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBBC00293943A9001D316A /* ResultsTableView.swift */; };
 		86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */; };
@@ -121,6 +123,8 @@
 		2777D85D2934E50300805B27 /* SeeAllComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
 		2790824D293D163400D96D2B /* SeeOnMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOnMapView.swift; sourceTree = "<group>"; };
 		2790824F293D168A00D96D2B /* SeeOnMapBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOnMapBG.swift; sourceTree = "<group>"; };
+		27908257293D274B00D96D2B /* CLLocationCoordinate2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CLLocationCoordinate2D.swift; sourceTree = "<group>"; };
+		27908259293D277100D96D2B /* DistanceBetweenTwoPoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceBetweenTwoPoints.swift; sourceTree = "<group>"; };
 		82FBBBE42937F614001D316A /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		82FBBC00293943A9001D316A /* ResultsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableView.swift; sourceTree = "<group>"; };
 		86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenCarouselView.swift; path = "Qatar-Challenge WatchKit Extension/Views/HomeScreenCarouselView.swift"; sourceTree = SOURCE_ROOT; };
@@ -250,6 +254,7 @@
 				86ED173F2932DFD000371E3C /* Color+Hex.swift */,
 				27372F862937D8CD003EAEB5 /* LocationManager+CLLocationManagerDelegate .swift */,
 				27372F882937D8EA003EAEB5 /* MKCoordinateRegion.swift */,
+				27908257293D274B00D96D2B /* CLLocationCoordinate2D.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -261,6 +266,7 @@
 				86ED173D2932CB3600371E3C /* Store.swift */,
 				274B36B6293692D60089FFCC /* LocationModel.swift */,
 				82FBBBE42937F614001D316A /* LocationStore.swift */,
+				27908259293D277100D96D2B /* DistanceBetweenTwoPoints.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -480,10 +486,12 @@
 				274B36B7293692D60089FFCC /* LocationModel.swift in Sources */,
 				E96C801E29366DD100FEF7F0 /* ResultTopText.swift in Sources */,
 				E96C802229366E0000FEF7F0 /* ResultView.swift in Sources */,
+				2790825A293D277100D96D2B /* DistanceBetweenTwoPoints.swift in Sources */,
 				274EE013293138FE0042B8E3 /* ComplicationController.swift in Sources */,
 				E936156E2934F1C9000ECB22 /* CalculateRouteButton.swift in Sources */,
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
 				E96C802029366DE000FEF7F0 /* ResultBottomText.swift in Sources */,
+				27908258293D274B00D96D2B /* CLLocationCoordinate2D.swift in Sources */,
 				E91B07AB29327F1B00055D99 /* InitialCard.swift in Sources */,
 				274EE011293138FE0042B8E3 /* NotificationView.swift in Sources */,
 				2719DEC5293A64D60002F9F5 /* MapViewController.swift in Sources */,
