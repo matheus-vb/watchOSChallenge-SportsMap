@@ -14,10 +14,12 @@ struct ResultsTableView: View {
     
     var body: some View {
         ZStack {
-            List {
-                ForEach(models.modelDict[sportType]!) { loc in
-                    SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "500")
-                        .listRowBackground(Color.clear)
+            ScrollView{
+                VStack(spacing: 8){
+                    ForEach(models.modelDict[sportType]!) { loc in
+                        SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "500")
+                            .listRowBackground(Color.clear)
+                    }
                 }
             }
         }

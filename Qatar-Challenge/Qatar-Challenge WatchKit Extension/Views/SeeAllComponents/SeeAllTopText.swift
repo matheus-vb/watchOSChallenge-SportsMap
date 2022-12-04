@@ -18,7 +18,7 @@ struct SeeAllTopText: View {
             Text(localName)
                 .fontWeight(.semibold)
                 .font(.custom("SF-Pro-Display", size: 10))
-                .frame(alignment: .leading)
+                .frame(width: 72, alignment: .leading)
             
             Spacer()
                 .frame(width: 30)
