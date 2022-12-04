@@ -7,7 +7,7 @@
 
 import Foundation
 
-class TimeCheckController: TimeCheckProtocol {
+class TimeCheckController: TimeCheckControllerProtocol {
     
     let date = Date()
     let calendar = Calendar.current
