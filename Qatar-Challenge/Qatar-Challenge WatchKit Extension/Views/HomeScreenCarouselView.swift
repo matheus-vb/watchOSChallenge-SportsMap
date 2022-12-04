@@ -18,7 +18,7 @@ struct HomeScreenCarouselView: View {
     var body: some View {
         NavigationView {
             ZStack {
-                //Color(hex: "17181F")
+                Color(hex: "17181F")
                 ForEach(store.cards) { card in
                     NavigationLink {
                         ResultsTableView(sportType: card.name)
@@ -49,7 +49,6 @@ struct HomeScreenCarouselView: View {
                     }
             )
             .edgesIgnoringSafeArea(.all)
-            .offset(y: -4)
         }
     }
     

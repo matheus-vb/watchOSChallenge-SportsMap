@@ -36,7 +36,7 @@ struct InitialCard: View {
             HStack{
                 
                 Spacer()
-                    .frame(width: 14)
+                    .frame(width: 16)
                 
                 Image(image)
                     .resizable()
@@ -45,7 +45,7 @@ struct InitialCard: View {
                 Text(title)
                     .font(.system(size: {
                         if title == "Musculação" {
-                            return 14
+                            return 13.8
                         } else {
                             return 16
                         }
@@ -60,7 +60,7 @@ struct InitialCard: View {
 
 struct InitialCard_Previews: PreviewProvider {
     static var previews: some View {
-        InitialCard(image: "musculacaoBlue", title: "Musculação", height: 90, action: {})
+        HomeScreenCarouselView()
     }
 }
 
