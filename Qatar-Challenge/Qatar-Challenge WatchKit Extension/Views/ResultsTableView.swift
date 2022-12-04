@@ -25,8 +25,12 @@ struct ResultsTableView: View {
                 )
                 VStack(spacing: 8){
                     ForEach(models.modelDict[sportType]!) { loc in
-                        SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "500")
-                            .listRowBackground(Color.clear)
+                        NavigationLink {
+                            ResultView(exerciseType: sportType, distance: "500m", placeName: loc.name, placeAdress: loc.address, isItOpen: true, action: {})
+                        } label: {
+                            SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "500")
+                        }
+                        .buttonStyle(PlainButtonStyle())
                     }
                 }
             }
