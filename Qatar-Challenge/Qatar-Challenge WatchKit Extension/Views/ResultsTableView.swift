@@ -17,7 +17,7 @@ struct ResultsTableView: View {
         NavigationView{
             ScrollView(showsIndicators: false){
                 NavigationLink{
-                    MapView(locations: mapViewController.setupList())
+                    MapView(locations: mapViewController.setupList(sportName: sportType))
                 }label:{
                     SeeOnMapView()
                 }.buttonStyle(
