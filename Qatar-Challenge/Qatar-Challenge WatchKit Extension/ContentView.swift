@@ -12,8 +12,7 @@ struct ContentView: View {
     let mapViewController = MapViewController()
 
     var body: some View {
-        MapView(locations: mapViewController.setupList())
-            .padding()
+        ResultsTableView(sportType: "Futebol")
     }
 }
 
