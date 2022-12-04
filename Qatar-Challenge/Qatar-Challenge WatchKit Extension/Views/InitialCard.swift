@@ -21,7 +21,7 @@ struct InitialCard: View {
             HStack {
                 
                 Spacer()
-                    .frame(width: 8)
+                    .frame(width: 4)
                 
                 Rectangle()
                     .frame(height: height)
@@ -30,20 +30,26 @@ struct InitialCard: View {
                     .shadow(color: .black, radius: 20, y: 20)
                 
                 Spacer()
-                    .frame(width: 8)
+                    .frame(width: 4)
             }
             
             HStack{
                 
                 Spacer()
-                    .frame(width: 24)
+                    .frame(width: 14)
                 
                 Image(image)
                     .resizable()
                     .frame(width: 40, height: 40)
                 
                 Text(title)
-                    .font(.system(size: 16, weight: .semibold))
+                    .font(.system(size: {
+                        if title == "Musculação" {
+                            return 14
+                        } else {
+                            return 16
+                        }
+                    }(), weight: .semibold))
                     .padding(8)
                 
                 Spacer()
