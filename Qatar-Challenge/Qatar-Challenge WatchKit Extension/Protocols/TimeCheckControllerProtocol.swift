@@ -7,6 +7,6 @@
 
 import Foundation
 
-protocol TimeCheckProtocol {
+protocol TimeCheckControllerProtocol {
     func checkIfOpen(workingTime: String?) -> Bool
 }
