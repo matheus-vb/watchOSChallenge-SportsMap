@@ -40,13 +40,13 @@ Apple Watch app developed during an apple developer academy challenge.
 
 <table>
   <tr>
-<td align="center"><a href="https://github.com/jpcm2"><img src="https://avatars.githubusercontent.com/u/89039575?v=4" width="100px;" alt=""/><br /><sub><b>Alex Damascena</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/jpcm2"><img src="https://avatars.githubusercontent.com/u/89039575?v=4" width="100px;" alt=""/><br /><sub><b>João Pedro Medeiros</b></sub></a><br/></td>
 
-<td align="center"><a href="https://github.com/thaxz"><img src="https://avatars.githubusercontent.com/u/77128802?v=4" width="100px;" alt=""/><br /><sub><b>João Pedro</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/thaxz"><img src="https://avatars.githubusercontent.com/u/77128802?v=4" width="100px;" alt=""/><br /><sub><b>Thais Monteiro</b></sub></a><br/></td>
 
-<td align="center"><a href="https://github.com/matheus-vb"><img src="https://avatars.githubusercontent.com/u/88170905?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Migge</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/matheus-vb"><img src="https://avatars.githubusercontent.com/u/88170905?v=4" width="100px;" alt=""/><br /><sub><b>Matheus Batista</b></sub></a><br/></td>
 
-<td align="center"><a href="https://github.com/alanacr"><img src="https://avatars.githubusercontent.com/u/103276109?v=4" width="100px;" alt=""/><br /><sub><b>Lucas Migge</b></sub></a><br/></td>
+<td align="center"><a href="https://github.com/alanacr"><img src="https://avatars.githubusercontent.com/u/103276109?v=4" width="100px;" alt=""/><br /><sub><b>Alana Ramos</b></sub></a><br/></td>
 </tr>
  </table>
 
