@@ -2,7 +2,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="Qatar-Challenge/Qatar-Challenge WatchKit App/Assets.xcassets/AppIcon.appiconset/92.png" alt="Logo" width="100%">
+    <img src="Qatar-Challenge/Qatar-Challenge WatchKit App/Assets.xcassets/AppIcon.appiconset/258.png" alt="Logo" width="100%">
   </a>
 
   <h3 align="center">SportsMap</h3>
