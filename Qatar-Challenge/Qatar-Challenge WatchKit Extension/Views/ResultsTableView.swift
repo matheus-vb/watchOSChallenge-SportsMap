@@ -25,10 +25,11 @@ struct ResultsTableView: View {
                 )
                 VStack(spacing: 8){
                     ForEach(models.modelDict[sportType]!) { loc in
+                        let coord = loc.coordinate
                         NavigationLink {
                             ResultView(exerciseType: sportType, distance: "500m", placeName: loc.name, placeAdress: loc.address, isItOpen: true, action: {})
                         } label: {
-                            SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "500")
+                            SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "\(DistanceBetweenTwoPoints.calculate(to: coord ?? CLLocationCoordinate2D()).rounded())")
                         }
                         .buttonStyle(PlainButtonStyle())
                     }
