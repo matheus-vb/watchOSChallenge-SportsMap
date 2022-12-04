@@ -14,34 +14,42 @@ struct HomeScreenCarouselView: View {
     @State private var snappedItem = 0.0
     @State private var draggingItem = 0.0
     
+    
     var body: some View {
-        ZStack{
-            ForEach(store.cards) { card in
-                InitialCard(image: card.asset, title: card.name, height: 90, action: {})
-                .frame(width: 160)
-                
-                .scaleEffect(1.0 - abs(distance(card.id)) * 0.2)
-                .opacity(1.0 - abs(distance(card.id)) * 0.3)
-                .offset(y: myXOffset(card.id))
-                .zIndex(1.0 - abs(distance(card.id)) * 0.1)
-                .edgesIgnoringSafeArea(.all)
-            }
-        }
-        .gesture(
-            DragGesture()
-                .onChanged { value in
-                    draggingItem = snappedItem + value.translation.height / 100
-                }
-                .onEnded { value in
-                    withAnimation {
-                        draggingItem = snappedItem + value.predictedEndTranslation.height / 100
-                        draggingItem = round(draggingItem).remainder(dividingBy: Double(store.cards.count))
-                        snappedItem = draggingItem
+        NavigationView {
+            ZStack {
+                ForEach(store.cards) { card in
+                    NavigationLink {
+                        ResultsTableView(sportType: card.name)
+                    } label: {
+                        InitialCard(image: card.asset, title: card.name, height: 90, action: {})
                     }
+                        .frame(width: 160)
+                    
+                        .scaleEffect(1.0 - abs(distance(card.id)) * 0.2)
+                        .opacity(1.0 - abs(distance(card.id)) * 0.3)
+                        .offset(y: myXOffset(card.id))
+                        .zIndex(1.0 - abs(distance(card.id)) * 0.1)
+                        .edgesIgnoringSafeArea(.all)
+                        .buttonStyle(PlainButtonStyle())
                 }
-        )
-        .edgesIgnoringSafeArea(.all)
-        .offset(y: -4)
+            }
+            .highPriorityGesture(
+                DragGesture()
+                    .onChanged { value in
+                        draggingItem = snappedItem + value.translation.height / 100
+                    }
+                    .onEnded { value in
+                        withAnimation {
+                            draggingItem = snappedItem + value.predictedEndTranslation.height / 100
+                            draggingItem = round(draggingItem).remainder(dividingBy: Double(store.cards.count))
+                            snappedItem = draggingItem
+                        }
+                    }
+            )
+            .edgesIgnoringSafeArea(.all)
+            .offset(y: -4)
+        }
     }
     
     func distance(_ card: Int) -> Double {
