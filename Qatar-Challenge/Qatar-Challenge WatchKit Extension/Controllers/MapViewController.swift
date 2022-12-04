@@ -17,12 +17,14 @@ class MapViewController: MapViewControllerProtocol{
         locationStore = LocationStore().modelDict
     }
     
-    func setupList() -> [Location]{
+    func setupList(sportName: String) -> [Location]{
         var locationList: [Location] = []
         
-        for (_, localValue) in locationStore {
-            for location in localValue {
-                locationList.append(location)
+        for (sportKey, localValue) in locationStore {
+            if(sportKey == sportName){
+                for location in localValue {
+                    locationList.append(location)
+                }
             }
         }
         return locationList

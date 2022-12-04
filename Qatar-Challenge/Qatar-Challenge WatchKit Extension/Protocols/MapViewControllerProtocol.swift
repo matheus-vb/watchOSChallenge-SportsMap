@@ -10,5 +10,5 @@ import SwiftUI
 
 
 protocol MapViewControllerProtocol{
-    func setupList() -> [Location]
+    func setupList(sportName: String) -> [Location]
 }
