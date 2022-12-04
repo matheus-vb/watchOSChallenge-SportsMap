@@ -28,6 +28,8 @@
 		274EE015293138FF0042B8E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE014293138FF0042B8E3 /* Assets.xcassets */; };
 		274EE018293138FF0042B8E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274EE017293138FF0042B8E3 /* Preview Assets.xcassets */; };
 		2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2777D85D2934E50300805B27 /* SeeAllComponent.swift */; };
+		2790824E293D163400D96D2B /* SeeOnMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2790824D293D163400D96D2B /* SeeOnMapView.swift */; };
+		27908250293D168A00D96D2B /* SeeOnMapBG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2790824F293D168A00D96D2B /* SeeOnMapBG.swift */; };
 		82FBBBE52937F614001D316A /* LocationStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBBBE42937F614001D316A /* LocationStore.swift */; };
 		82FBBC01293943A9001D316A /* ResultsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FBBC00293943A9001D316A /* ResultsTableView.swift */; };
 		86ED173A2932C55C00371E3C /* HomeScreenCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */; };
@@ -116,6 +118,8 @@
 		274EE019293138FF0042B8E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		274EE01A293138FF0042B8E3 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		2777D85D2934E50300805B27 /* SeeAllComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllComponent.swift; sourceTree = "<group>"; };
+		2790824D293D163400D96D2B /* SeeOnMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOnMapView.swift; sourceTree = "<group>"; };
+		2790824F293D168A00D96D2B /* SeeOnMapBG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeOnMapBG.swift; sourceTree = "<group>"; };
 		82FBBBE42937F614001D316A /* LocationStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationStore.swift; sourceTree = "<group>"; };
 		82FBBC00293943A9001D316A /* ResultsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableView.swift; sourceTree = "<group>"; };
 		86ED17392932C55C00371E3C /* HomeScreenCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeScreenCarouselView.swift; path = "Qatar-Challenge WatchKit Extension/Views/HomeScreenCarouselView.swift"; sourceTree = SOURCE_ROOT; };
@@ -270,6 +274,7 @@
 		274EE02D293139A60042B8E3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2790824C293D162700D96D2B /* SeeOnMap */,
 				270DF71C2937C68F00B23EE9 /* MapViewComponents */,
 				86ED174129364C6700371E3C /* SeeAllComponents */,
 				E91B07AA29327F1B00055D99 /* InitialCard.swift */,
@@ -283,6 +288,15 @@
 				82FBBC00293943A9001D316A /* ResultsTableView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2790824C293D162700D96D2B /* SeeOnMap */ = {
+			isa = PBXGroup;
+			children = (
+				2790824D293D163400D96D2B /* SeeOnMapView.swift */,
+				2790824F293D168A00D96D2B /* SeeOnMapBG.swift */,
+			);
+			path = SeeOnMap;
 			sourceTree = "<group>";
 		};
 		86ED174129364C6700371E3C /* SeeAllComponents */ = {
@@ -454,9 +468,11 @@
 				274EE00B293138FE0042B8E3 /* Qatar_ChallengeApp.swift in Sources */,
 				270DF71F2937C6C300B23EE9 /* MapView.swift in Sources */,
 				274EE00F293138FE0042B8E3 /* NotificationController.swift in Sources */,
+				2790824E293D163400D96D2B /* SeeOnMapView.swift in Sources */,
 				2777D85E2934E50300805B27 /* SeeAllComponent.swift in Sources */,
 				274EE00D293138FE0042B8E3 /* ContentView.swift in Sources */,
 				274B36B5293690CD0089FFCC /* PinSports.swift in Sources */,
+				27908250293D168A00D96D2B /* SeeOnMapBG.swift in Sources */,
 				274B36B7293692D60089FFCC /* LocationModel.swift in Sources */,
 				E96C801E29366DD100FEF7F0 /* ResultTopText.swift in Sources */,
 				E96C802229366E0000FEF7F0 /* ResultView.swift in Sources */,
