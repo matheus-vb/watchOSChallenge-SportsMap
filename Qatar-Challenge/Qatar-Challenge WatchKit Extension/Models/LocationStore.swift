@@ -28,7 +28,7 @@ class LocationStore {
                                          category: "Campo de Futebol",
                                          free: false,
                                          address: "R. Zilda S de Santana - Torre",
-                                         time: "07-23:30",
+                                         time: "07-23",
                                          asset: "futebolBlue",
                                          distance: nil),
                                 Location(name: "Campo Cacique",
@@ -64,7 +64,7 @@ class LocationStore {
                                          category: "Campo de futebol",
                                          free: false,
                                          address: "R. Amália Bernardino de Sousa, 137 - Boa Viagem",
-                                         time: "08-22:30",
+                                         time: "08-22",
                                          asset: "futebolBlue",
                                          distance: nil),
                                 Location(name: "Arena X1",
@@ -132,7 +132,7 @@ class LocationStore {
                                          asset: "corridaBlue",
                                          distance: nil)
         ]
-        modelDict["Tenis"] = [Location(name: "Recife Tenis Club",
+        modelDict["Tênis"] = [Location(name: "Recife Tenis Club",
                                        coordinate: CLLocationCoordinate2D(latitude: -8.12204588197846, longitude: -34.92007980306745),
                                        sport: PinSports.tenis,
                                        category: "Tênis Clube",
@@ -345,7 +345,7 @@ class LocationStore {
                                           asset: "bicicletaBlue",
                                           distance: nil)
         ]
-        modelDict["Musculacao"] = [Location(name: "Academia da Cidade",
+        modelDict["Musculação"] = [Location(name: "Academia da Cidade",
                                             coordinate: CLLocationCoordinate2D(latitude: -8.049499051427125, longitude: -34.95965163272757),
                                             sport: PinSports.musculacao,
                                             category: "Academia Pública",
@@ -391,7 +391,7 @@ class LocationStore {
                                             asset: "musculacaoBlue",
                                             distance: nil)
         ]
-        modelDict["Volei"] = [Location(name: "Arena Lob",
+        modelDict["Vôlei"] = [Location(name: "Arena Lob",
                                        coordinate: CLLocationCoordinate2D(latitude: -8.041557630852049, longitude: -34.911301474232616),
                                        sport: PinSports.volei,
                                        category: "Clube de esportes",
@@ -455,7 +455,7 @@ class LocationStore {
                                        asset: "voleiBlue",
                                        distance: nil)
         ]
-        modelDict["Nataçao"] = [Location(name: "Via Água Club",
+        modelDict["Natação"] = [Location(name: "Via Água Club",
                                          coordinate: CLLocationCoordinate2D(latitude: -8.029228710894643, longitude: -34.91358429376224),
                                          sport: PinSports.natacao,
                                          category: "Escolinha de natação",

@@ -15,8 +15,10 @@ struct ResultView: View {
     let placeName: String
     let placeAdress: String
     let isItOpen: Bool
+    let workingTime: String?
     let action: () -> Void
     
+    let timeCheckController = TimeCheckController()
     
     var body: some View {
         
@@ -31,7 +33,7 @@ struct ResultView: View {
                 Spacer()
                     .frame(width: 8)
                 
-                ResultBottomText(placeName: self.placeName, placeAddress: self.placeAdress, isItOpen: self.isItOpen)
+                ResultBottomText(placeName: self.placeName, placeAddress: self.placeAdress, isItOpen: timeCheckController.checkIfOpen(workingTime: workingTime))
                 
                 Spacer()
 
@@ -49,6 +51,6 @@ struct ResultView: View {
 
 struct ResultView_Previews: PreviewProvider {
     static var previews: some View {
-        ResultView(exerciseType: "Futebol", distance: "400", placeName: "Arena F12", placeAdress: "R. Francisco Leopoldo, 743", isItOpen: true, action: {})
+        ResultView(exerciseType: "Futebol", distance: "400", placeName: "Arena F12", placeAdress: "R. Francisco Leopoldo, 743", isItOpen: true, workingTime: "06-22", action: {})
     }
 }

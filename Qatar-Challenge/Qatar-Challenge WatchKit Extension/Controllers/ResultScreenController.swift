@@ -18,7 +18,7 @@ struct ResultScreenController: View {
             
             VStack(){
                 
-                ResultView(exerciseType: "Futebol", distance: "400", placeName: "Arena F12", placeAdress: "R. Francisco Leopoldo, 743", isItOpen: true, action: {})
+                ResultView(exerciseType: "Futebol", distance: "400", placeName: "Arena F12", placeAdress: "R. Francisco Leopoldo, 743", isItOpen: true, workingTime: "06-22", action: {})
                 
             }
             

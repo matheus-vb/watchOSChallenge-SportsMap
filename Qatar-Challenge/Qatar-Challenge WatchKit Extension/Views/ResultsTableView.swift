@@ -26,7 +26,7 @@ struct ResultsTableView: View {
                 VStack(spacing: 8){
                     ForEach(models.modelDict[sportType]!) { loc in
                         NavigationLink {
-                            ResultView(exerciseType: sportType, distance: "500m", placeName: loc.name, placeAdress: loc.address, isItOpen: true, action: {})
+                            ResultView(exerciseType: sportType, distance: "500m", placeName: loc.name, placeAdress: loc.address, isItOpen: true, workingTime: loc.time, action: {})
                         } label: {
                             SeeAllComponent(image: loc.asset, localName: loc.name, type: loc.category, isfree: loc.free, distance: "500")
                         }
