@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct homeScreen: View {
+struct HomeScreen: View {
     var body: some View {
         HomeScreenCarouselView()
     }
@@ -15,6 +15,6 @@ struct homeScreen: View {
 
 struct homeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        homeScreen()
+        HomeScreen()
     }
 }
