@@ -12,7 +12,7 @@ struct ContentView: View {
     let mapViewController = MapViewController()
 
     var body: some View {
-        ResultsTableView(sportType: "Futebol")
+        homeScreen()
     }
 }
 
