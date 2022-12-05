@@ -15,11 +15,8 @@ struct ResultTopText: View {
     
     var body: some View {
         
-        VStack(spacing: 8){
+        VStack {
             
-            Text(exerciseType)
-                .font(.system(size: 26, weight: .semibold))
-        
             HStack(alignment: .lastTextBaseline, spacing: 4){
               
                 Text("\(distance)")
@@ -37,6 +34,5 @@ struct ResultTopText: View {
 
 struct ResultTopText_Previews: PreviewProvider {
     static var previews: some View {
-        ResultTopText(exerciseType: "Futebol", distance: "400")
-    }
+        ResultView(exerciseType: "Futebol", distance: "40000", placeName: "Mini Ramp Lagoa do Araçá", placeAdress: "Estrada do Forte do Arraial N. do B Jesus, 477 - Cordeiro", isItOpen: true, workingTime: "06-22", action: {})    }
 }

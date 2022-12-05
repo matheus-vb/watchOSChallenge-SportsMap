@@ -21,36 +21,28 @@ struct ResultView: View {
     let timeCheckController = TimeCheckController()
     
     var body: some View {
-        
-        VStack(spacing: 8){
-            
+        VStack(spacing: 2){
             VStack(alignment: .center, spacing: 0) {
                 ResultTopText(exerciseType: self.exerciseType, distance: self.distance)
             }
             
             HStack(spacing: 0){
-                
                 Spacer()
                     .frame(width: 8)
-                
                 ResultBottomText(placeName: self.placeName, placeAddress: self.placeAdress, isItOpen: timeCheckController.checkIfOpen(workingTime: workingTime))
                 
-                Spacer()
-
             }
             
-            
-                
-            
+            Spacer()
+                .frame(height: 0)
             CalculateRouteButton(action: self.action)
-            
-        }
-        
+                .scaleEffect(0.8)
+        }.offset(y: 12)
     }
 }
 
 struct ResultView_Previews: PreviewProvider {
     static var previews: some View {
-        ResultView(exerciseType: "Futebol", distance: "400", placeName: "Arena F12", placeAdress: "R. Francisco Leopoldo, 743", isItOpen: true, workingTime: "06-22", action: {})
+        ResultView(exerciseType: "Futebol", distance: "40000", placeName: "Mini Ramp Lagoa do Araçá", placeAdress: "Estrada do Forte do Arraial N. do B Jesus, 477 - Cordeiro", isItOpen: true, workingTime: "06-22", action: {})
     }
 }

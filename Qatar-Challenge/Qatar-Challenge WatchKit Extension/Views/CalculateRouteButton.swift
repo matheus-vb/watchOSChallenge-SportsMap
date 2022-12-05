@@ -13,32 +13,20 @@ struct CalculateRouteButton: View {
     let action: () -> Void
     
     var body: some View {
-        
-        HStack{
+        Button {
+            action()
+        } label: {
             
-            Spacer()
-                .frame(width: 8)
+            Text("Traçar rota")
+                .fontWeight(.semibold)
+                .foregroundColor(.white)
             
-            Button {
-                action()
-            } label: {
-                
-                Text("Traçar rota")
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    
-            }.buttonStyle(
-                
-                BorderedButtonStyle(
-                    tint: Color("blue80").opacity(100)
-                )
+        }.buttonStyle(
+            
+            BorderedButtonStyle(
+                tint: Color("blue80").opacity(100)
             )
-            
-            Spacer()
-                .frame(width: 8)
-            
-        }
-         
+        )
     }
 }
 
