@@ -15,39 +15,41 @@ struct ResultBottomText: View {
     let isItOpen: Bool
     
     var body: some View {
-        
-            
-            VStack(alignment: .leading, spacing: 8){
+        VStack(alignment: .leading, spacing: 0){
+            Text(placeName)
+                .font(.system(size: 18, weight: .semibold))
+                .frame(alignment: .leading)
+                .frame(width: 160)
+                .fixedSize()
+                .lineLimit(2)
+            Spacer()
+            Text(placeAddress)
+                .font(.system(size: 11, weight: .regular))
+                .foregroundColor(Color("white80"))
+                .frame(alignment: .center)
+                .frame(width: 160)
+                .fixedSize()
+                .lineLimit(2)
+            Spacer()
+            HStack(alignment: .lastTextBaseline, spacing: 8){
+                Circle()
+                    .fill(isItOpen ? .green : Color("red100"))
+                    .frame(width: 8, height: 8, alignment: .bottom)
                 
-                Text(placeName)
-                    .font(.system(size: 18, weight: .semibold))
-                    .frame(alignment: .leading)
-                
-                Text(placeAddress)
+                Text(isItOpen ? "Aberto agora" : "Fechado")
                     .font(.system(size: 12, weight: .regular))
                     .foregroundColor(Color("white80"))
                     .frame(alignment: .leading)
-            
                 
-                HStack(alignment: .lastTextBaseline, spacing: 8){
-                  
-                    Circle()
-                        .fill(isItOpen ? .green : Color("red100"))
-                        .frame(width: 8, height: 8, alignment: .bottom)
-                    
-                    Text(isItOpen ? "Aberto agora" : "Fechado")
-                        .font(.system(size: 12, weight: .regular))
-                        .foregroundColor(Color("white80"))
-                        .frame(alignment: .leading)
-                    
-                }
             }
-            
+        }
+        
     }
 }
 
 struct ResultBottomText_Previews: PreviewProvider {
     static var previews: some View {
-        ResultBottomText(placeName: "Arena F12", placeAddress: "R. Francisco Leopoldo, 743", isItOpen: true)
+        ResultView(exerciseType: "Futebol", distance: "40000", placeName: "Mini ramp lagoa do Araçá", placeAdress: "Avenida Boa Viagem, s/n - Boa Viagem", isItOpen: true, workingTime: "06-22", action: {})
     }
+    
 }

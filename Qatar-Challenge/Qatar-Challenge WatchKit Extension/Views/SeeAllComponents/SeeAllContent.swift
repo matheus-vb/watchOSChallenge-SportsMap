@@ -18,29 +18,30 @@ struct SeeAllContent: View{
     
     var body: some View {
         HStack{
-            Image(image)
-                .resizable()
-                .frame(width: 34, height: 34)
-            
             Spacer()
                 .frame(width: 8)
+            Image(image)
+                .resizable()
+                .frame(width: 28, height: 28)
+            
+            Spacer()
+                .frame(width: 6)
             
             VStack(alignment: .leading){
                 
                 SeeAllTopText(localName: self.localName, distance: self.distance)
                 
                 Spacer()
-                    .frame(height: 4)
+                    .frame(height: 8)
                 
                 SeeAllBottomText(type: self.type, isFree: self.isfree)
-            }
+            }.offset(y: 0)
         }
     }
 }
 
 struct SeeAllContent_Previews: PreviewProvider {
     static var previews: some View {
-        SeeAllContent(image: "futebolBlue", localName: "Arena F12", type: "Campo de Futebol", isfree: false, distance: "500")
-    }
+        SeeAllComponent(image: "futebolBlue", localName: "Mini Ramp Lagoa do Araçá", type: "Campo de Futebol", isfree: false, distance: "50000")    }
 }
 
